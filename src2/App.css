@@ -1,0 +1,107 @@
+body {
+  background-color: #ffeded;
+}
+
+.calculator {
+  margin: 2em auto auto auto;
+  width: 25%;
+}
+
+.display__results {
+  width: 63%;
+  height: 1em;
+  font-size: 3.5em;
+  padding: 0.5em 0.75em;
+  text-align: right;
+  background-color: #500000;
+  color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #500000;
+  box-shadow: 5px 5px 5px #808080;
+}
+
+.button__grid {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 2px;
+  grid-template-columns: max-content;
+}
+
+button {
+  width: 3em;
+  height: 3em;
+  border-radius: 3px;
+  font-size: 1.5em;
+  box-shadow: 5px 5px 5px #808080;
+  margin-right: 4px;
+}
+
+.button__row--1 button {
+  background-color: #8b0000;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #8b0000;
+}
+
+.button__row--1 button:hover,
+.button__row--1 button:focus {
+  background-color: #fff;
+  color: #8b0000;
+  font-weight: bold;
+}
+
+.button__row--2 button {
+  background-color: #d90000;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #d90000;
+}
+
+.button__row--2 button:hover,
+.button__row--2 button:focus {
+  background-color: #fff;
+  color: #d90000;
+  font-weight: bold;
+}
+
+.button__row--3 button {
+  background-color: #ff2929;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #ff2929;
+}
+
+.button__row--3 button:hover,
+.button__row--3 button:focus {
+  background-color: #fff;
+  color: #ff2929;
+  font-weight: bold;
+}
+
+.button__row--4 button {
+  background-color: #ff7777;
+  color: #500000;
+  font-weight: bold;
+  border: 1px solid #ff7777;
+}
+
+.button__row--4 button:hover,
+.button__row--4 button:focus {
+  background-color: #500000;
+  color: #ff7777;
+  font-weight: bold;
+}
+
+.button__row--5 button {
+  background-color: #ffb2b2;
+  color: #500000;
+  font-weight: bold;
+  border: 1px solid #ffb2b2;
+}
+
+.button__row--5 button:hover,
+.button__row--5 button:focus {
+  background-color: #500000;
+  color: #ffb2b2;
+  font-weight: bold;
+}
